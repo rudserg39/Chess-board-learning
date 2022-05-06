@@ -1,0 +1,40 @@
+.controls {
+  position: relative;
+  padding: 25px;
+}
+
+.controls__wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.controls__statistics {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.controls__buttons {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 320px) {
+  .controls__statistics {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .controls__statistics {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .controls__statistics {
+    font-size: 30px;
+  }
+}

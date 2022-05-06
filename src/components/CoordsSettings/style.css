@@ -1,0 +1,14 @@
+.coords {
+  display: flex;
+  flex-flow: column;
+  padding: 30px 0px;
+}
+
+.coords__input {
+  margin-right: 10px;
+}
+
+.coords__label {
+  margin-bottom: 10px;
+  cursor: pointer;
+}

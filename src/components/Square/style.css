@@ -1,0 +1,54 @@
+.square {
+  position: relative;
+  transition: 0.2s;
+}
+
+.square_inactive {
+  filter: contrast(0.7);
+  pointer-events: none;
+}
+
+.square_light {
+  color: #b58863;
+  background-color: #f0d9b5;
+}
+
+.square_dark {
+  color: #f0d9b5;
+  background-color: #b58863;
+}
+
+.square_green {
+  background-color: lightgreen;
+}
+
+.square_red {
+  background-color: lightcoral;
+}
+
+.square__text {
+  font-weight: 500;
+  line-height: 1;
+  cursor: none;
+  pointer-events: none;
+  user-select: none;
+}
+
+.square__text_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.square__text_bottom-right {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.square__text_top-left {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}

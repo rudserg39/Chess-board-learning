@@ -1,0 +1,14 @@
+export const CHANGE_TIME = 'CHANGE_TIME';
+export const CHANGE_SIDE = 'CHANGE_SIDE';
+export const CHANGE_COORDS_VISIBILITY = 'CHANGE_COORDS_VISIBILITY';
+export const START_GAME = 'START_GAME';
+export const FINISH_GAME = 'FINISH_GAME';
+export const START_TIMER = 'START_TIMER';
+export const STOP_TIMER = 'STOP_TIMER';
+export const SET_TIME_LEFT = 'SET_TIME_LEFT';
+export const IS_TIME_LEFT = 'IS_TIME_LEFT';
+export const SET_CASE_COORDS = 'SET_CASE_COORDS';
+export const SHOW_CASE_COORDS = 'SHOW_CASE_COORDS';
+export const HIDE_CASE_COORDS = 'HIDE_CASE_COORDS;'
+export const INCREASE_SCORE = 'INCREASE_SCORE';
+export const RESET_SCORE = 'RESET_SCORE';

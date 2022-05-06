@@ -1,0 +1,11 @@
+.side {
+  display: flex;
+  justify-content: space-between;
+  width: 190px;
+  padding: 30px 0px;
+}
+
+.side__label {
+  margin-right: 10px;
+  cursor: pointer;
+}

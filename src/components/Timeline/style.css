@@ -1,0 +1,7 @@
+.timeline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2px;
+  background-color: lightgreen;
+}
